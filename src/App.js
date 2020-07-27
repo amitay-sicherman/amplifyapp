@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Checkbox from '@material-ui/core/Checkbox';
 
 function App() {
   return (
@@ -10,6 +11,16 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <Checkbox
+            checked={true}
+            onChange={console.log("67")}
+            inputProps={{ 'aria-label': 'primary checkbox' }}
+        />
+        <Checkbox
+            checked={true}
+            onChange={console.log("67")}
+            inputProps={{ 'aria-label': 'primary checkbox' }}
+        />
         <a
           className="App-link"
           href="https://reactjs.org"
